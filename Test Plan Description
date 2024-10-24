@@ -4,3 +4,9 @@ I. Purpose
 The test plan provides a clear approach for the verification of our Movie Theater 
 Ticketing Website. The plan covers unit, functional, and system testing to make sure all components function correctly and meet the specified requirements. The test plan also includes the key features being tested, the test cases designed to validate these features, and the failures the tests aim to identify and resolve.
 
+II. Objectives
+  - Ensure all functionalities such as user account management, movie browsing, ticket booking, payment processing all work as intended
+  - Verify that system handles user interactions smoothly and efficiently without errors
+  - Validate the system handles data integrity for bookings, payments, and user accounts
+  - Extensive error handling for edge cases such as invalid inputs, failed payments, and availability of seats
+
