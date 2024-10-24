@@ -21,3 +21,22 @@ Tests will cover key modules and functionalities of the website, focusing on
   - Admin functions, such as managing movies, showtimes, and theaters
 
 IV. Test Sets
+User Account Management
+Unit Level Test Sets:
+  - Unit tests for UserInfo class methods to ensure correct handling of loyalty points, rewards, and account details.
+  - Test for AccountInfo class methods: Test methods related to user credentials and authentication - login verification or password management
+Integration Level Test Sets:
+  - Test integration between UserInfo and AccountInfo and authentication services to allow proper handling of user credentials and profile creation
+  - Test that integration between UserInfo class and payment process allows for quick redemption of rewards during ticket purchasing process
+System Level Test Sets:
+  - Test the full account experience from registration to logging in
+  - Update account details on the website, view loyalty points, redeem rewards
+  - This ensures that all account related features are working correctly across the system
+Movie Browsing and Selection
+Unit Level Test Sets:
+  - Verify that methods like getFreeSeats, setName, and getName retrieve and modify movie information
+Integration Level Test Sets:
+  - Make sure that the Movie class is properly integrated with the user interface
+  - Ensure that movie data is correctly “fetched” and displayed
+System Level Test Sets:
+  - Simulate a user navigating through the website, searching for movies, and filtering by different criteria
