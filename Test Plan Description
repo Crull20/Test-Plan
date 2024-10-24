@@ -10,3 +10,14 @@ II. Objectives
   - Validate the system handles data integrity for bookings, payments, and user accounts
   - Extensive error handling for edge cases such as invalid inputs, failed payments, and availability of seats
 
+III. Scope
+Tests will cover key modules and functionalities of the website, focusing on 
+  - User registration, login, and account management
+  - Movie browsing and selection
+  - Ticket booking process
+  - Payment process and transaction handling
+  - Ticket refund vouchers and cancellation
+  - Rewards points and reward redemption
+  - Admin functions, such as managing movies, showtimes, and theaters
+
+IV. Test Sets
